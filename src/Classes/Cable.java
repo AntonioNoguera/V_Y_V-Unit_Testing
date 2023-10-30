@@ -20,4 +20,11 @@ public class Cable extends Clientes{
     public void setSaldoCable(float saldoCable) {
         this.saldoCable = saldoCable;
     }
+
+    //suscribirse a un (normal)
+
+
+    //Retornar lista de canales suscritos
+
+
 }

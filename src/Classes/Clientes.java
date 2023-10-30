@@ -8,6 +8,8 @@ public class Clientes {
     private float saldoTotal;
 
     //Constructor
+    public Clientes(){}
+
     public Clientes(int idCliente, String nombre, String direccion, float saldoTotal) {
         this.idCliente = idCliente;
         this.nombre = nombre;
@@ -42,10 +44,12 @@ public class Clientes {
     }
 
     public float getSaldoTotal() {
+
         return saldoTotal;
     }
 
     public void setSaldoTotal(float saldoTotal) {
         this.saldoTotal = saldoTotal;
     }
+
 }

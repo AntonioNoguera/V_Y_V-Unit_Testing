@@ -30,4 +30,9 @@ public class Telefono extends Clientes{
     public void setSaldoTelefono(float saldoTelefono) {
         this.saldoTelefono = saldoTelefono;
     }
+
+    //Metodos propuestos
+    //Get lada.
+
+    //Tiempo de llamada
 }
